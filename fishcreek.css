@@ -1,0 +1,67 @@
+body { 	background-image: url(gradientblue.jpg);
+		background-color: #5280C5;
+	} 
+
+#wrapper { 	background-color: #FFFFFF;
+			color: #000066;
+			margin-left: auto; 
+			margin-right: auto;
+			width: 80%;
+			min-width: 700px;
+}
+
+#header { 	text-align: center;
+			background-color: #000066;
+			padding: 10px;
+			background-image: url(bigfish.gif); 
+			background-position: center;
+			background-repeat: no-repeat;}
+
+h1 { 	font-size: 3em;
+		padding: .2em;
+		text-shadow: gray;}
+		
+#leftcolumn { 	float: left;
+				width: 180px;}
+			
+#leftcolumn ul {list-style-type: none; }				
+#leftcolumn a:link { color: #000066; }
+#leftcolumn a { text-decoration: none; }
+#leftcolumn a:visited {color: #5280C5; }
+#leftcolumn a:hover { color: #3262A3; }
+
+#rightcolumn { 	margin-left: 180px;
+				padding-right: 2em;
+				padding-left: 2em;
+				background-color: white;
+				border: 1px solid blue;}
+		
+.nav { 	font-weight: bold;
+}
+
+.category {  	color: #003366;
+				font-weight: bold;
+				font-size: 1.1em;
+				text-shadow: 1px 1px 1px #666666;
+}
+
+img { 	border-style: none;
+}
+
+table { 	border: 2px solid #0033CC;
+			border-spacing: 0; }
+
+td, th {	border: 1px solid #0033CC;
+			padding: 10px;}
+
+#footer { 	font-size: .75em; 
+			font-style: italic; }
+
+label { 	float: left;
+			display: block;
+			text-align: right;
+			width: 120px;
+			padding-right: 10px;
+}
+header, nav, main, footer {display: block; }
+		
